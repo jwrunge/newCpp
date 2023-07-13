@@ -14,7 +14,9 @@ As a front-end dev spoiled on NPM, I have found C++ dependency management and bu
 
 ## Instructions
 
-Place the appropriate .sh file (`newCpp.sh` for Linux and Mac, `newCpp-win.sh` for Windows [it can run via Git Bash]) where you would like it, or put it in your path for a quick C++ project setup. The only difference in the two `.sh` files is whether the script calls `./vcpkg/bootstrap-vcpkg.bat` or `./vcpkg/bootstrap-vcpkg.sh`.
+Place the appropriate .sh file (`newCpp.sh` for Linux and Mac, `newCpp-win.sh` for Windows) where you would like it, or put it in your path for a quick C++ project setup. The only difference in the two `.sh` files is whether the script calls `./vcpkg/bootstrap-vcpkg.bat` or `./vcpkg/bootstrap-vcpkg.sh`.
+
+On Windows, the `.sh` file should run just fine if you have git intalled; PowerShell should trigger Git Bash to run the file in another window without any setup on your part.
 
 Usage depends on your tooling, but it is very easy to get running in Visual Studio proper (NOT Code); choose "Open Folder" and VS will run CMake for you. Then, just click "Play" to build and run.
 
