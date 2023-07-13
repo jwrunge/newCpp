@@ -20,7 +20,7 @@ EOM
 
 #Script to install VCPKG as a submodule
 git submodule add https://github.com/Microsoft/vcpkg.git
-./vcpkg/bootstrap-vcpkg.sh
+./vcpkg/bootstrap-vcpkg.bat
 
 #Create CMakeLists.txt scaffold
 cat > CMakeLists.txt <<- EOM
